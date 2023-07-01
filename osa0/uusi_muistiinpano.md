@@ -1,5 +1,5 @@
 
-´´´mermaid
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -11,5 +11,5 @@ sequenceDiagram
     server-->>browser: JavaScript file
     Note right of browser: Browser executes JavaScript code. 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
-    server-->>browser: Data  
-´´´
+    server-->>browser: Data
+```
